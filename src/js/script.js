@@ -24,6 +24,8 @@ var objetoAluno = {
 listaAlunos.push(objetoAluno)
 console.log(listaAlunos)
 
+evento.target.reset()
+
 }
 
 formVar.addEventListener("submit", cadastrarAluno )
